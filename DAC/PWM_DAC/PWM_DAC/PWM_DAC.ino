@@ -7,7 +7,7 @@ int PWM1_DutyCycle = 0;
 
 void setup(){
     ledcAttachPin(LED_GPIO, PWM1_Ch);
-   ledcSetup(PWM1_Ch, PWM1_Freq, PWM1_Res);
+    ledcSetup(PWM1_Ch, PWM1_Freq, PWM1_Res);
 }
 
 
